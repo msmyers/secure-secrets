@@ -1,14 +1,18 @@
 {
-  "name": "my-ts-lib",
+  "name": "@michael-smyers/secure-secrets",
   "version": "1.0.0",
-  "description": "My npm package written in TS",
+  "description": "My solution for secure secrets within env variables",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "author": "Cameron Nokes",
+  "author": "Michael Smyers",
   "license": "MIT",
+  "dependencies": {
+    "@xbaun/secure-string": "^1.0.2",
+    "urlcat": "git+ssh://git@github.com:msmyers/urlcat.git"
+  },
   "devDependencies": {
     "typescript": "^2.7.2"
   }
